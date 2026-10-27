@@ -1,0 +1,13 @@
+{
+  "name": "brandguard-ai-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix BrandGuardAI-main run dev",
+    "start": "npm --prefix BrandGuardAI-main run dev",
+    "server": "npm --prefix BrandGuardAI-main run server",
+    "server:migrate": "npm --prefix BrandGuardAI-main run server:migrate",
+    "build": "npm --prefix BrandGuardAI-main run build",
+    "typecheck": "npm --prefix BrandGuardAI-main run typecheck"
+  }
+}
